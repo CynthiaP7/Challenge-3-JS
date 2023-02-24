@@ -45,7 +45,7 @@ var password = ""
 for (var i=0; i < length; i++) {
   var randomNum = Math.floor(Math.random() *characters.length) 
   var randomChar = characters [randomNum] 
-  password = password + randomChar
+  password = password + 
 }
 
 return password
